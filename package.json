@@ -1,0 +1,22 @@
+{
+  "name": "try-flyio",
+  "version": "1.0.0",
+  "description": "try the edge worker at https://fly.io",
+  "main": "index.js",
+  "scripts": {
+    "login": "flyctl auth login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silver-birder/try-flyio.git"
+  },
+  "author": "silverbirder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silver-birder/try-flyio/issues"
+  },
+  "homepage": "https://github.com/Silver-birder/try-flyio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
